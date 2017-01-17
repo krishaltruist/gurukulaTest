@@ -1,0 +1,11 @@
+{
+  "login": {
+    "username": "admin",
+    "password": "admin"
+  },
+  "newUser": {
+    "username": "krishna",
+    "password": "krishna",
+    "email" : "krishna@localhost"
+  }
+}

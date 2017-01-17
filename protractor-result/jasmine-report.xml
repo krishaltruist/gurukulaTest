@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Gurukula" timestamp="2017-01-18T04:32:30" hostname="localhost" time="166.717" errors="0" tests="0" skipped="0" failures="0">
+ </testsuite>
+ <testsuite name="Gurukula.Landing page" timestamp="2017-01-18T04:32:30" hostname="localhost" time="166.717" errors="0" tests="0" skipped="0" failures="0">
+ </testsuite>
+ <testsuite name="Gurukula.Landing page.Main Page" timestamp="2017-01-18T04:32:30" hostname="localhost" time="3.687" errors="0" tests="1" skipped="0" failures="0">
+  <testcase classname="Gurukula.Landing page.Main Page" name="Landing page of Gurukula and traverse to other pages" time="3.685">
+  </testcase>
+ </testsuite>
+ <testsuite name="Gurukula.Landing page.Login Page" timestamp="2017-01-18T04:32:34" hostname="localhost" time="24.139" errors="0" tests="14" skipped="0" failures="0">
+  <testcase classname="Gurukula.Landing page.Login Page" name="Login using the link in home page" time="1.507">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Login Page" name="Login from the Account Menu" time="1.402">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Login Page" name="Login from register page" time="1.765">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Login Page" name="Login from register page after register link from home page" time="1.673">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Login Page" name="Automatic Login box checked" time="1.471">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Login Page" name="Automatic Login box unchecked" time="1.481">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Login Page" name="Forgot Password Link page " time="1.612">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Login Page" name="Enter email and click reset password " time="1.901">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Login Page" name="Email with less characters " time="1.713">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Login Page" name="Email with more characters " time="1.812">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Login Page" name="Enter email and click reset password " time="1.589">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Login Page" name="Register new user" time="1.915">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Login Page" name="Register new user error on confirm password" time="2.036">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Login Page" name="Register new user password strength" time="2.261">
+  </testcase>
+ </testsuite>
+ <testsuite name="Gurukula.Landing page.Entities Menu Options" timestamp="2017-01-18T04:32:58" hostname="localhost" time="127.098" errors="0" tests="0" skipped="0" failures="0">
+ </testsuite>
+ <testsuite name="Gurukula.Landing page.Entities Menu Options.Branch Functionality" timestamp="2017-01-18T04:32:58" hostname="localhost" time="44.01" errors="0" tests="7" skipped="0" failures="0">
+  <testcase classname="Gurukula.Landing page.Entities Menu Options.Branch Functionality" name="Check the Drop down contains Branch menu" time="1.417">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Entities Menu Options.Branch Functionality" name="Branch Page elements" time="1.635">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Entities Menu Options.Branch Functionality" name="Create Branch Form " time="3.661">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Entities Menu Options.Branch Functionality" name="Check fields in Branch Form" time="3.76">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Entities Menu Options.Branch Functionality" name="Filling the New branch form" time="9.133">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Entities Menu Options.Branch Functionality" name="To view created branch record" time="10.612">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Entities Menu Options.Branch Functionality" name="To Edit created branch record" time="13.788">
+  </testcase>
+ </testsuite>
+ <testsuite name="Gurukula.Landing page.Entities Menu Options.Staff Functionality" timestamp="2017-01-18T04:33:42" hostname="localhost" time="83.088" errors="0" tests="7" skipped="0" failures="0">
+  <testcase classname="Gurukula.Landing page.Entities Menu Options.Staff Functionality" name="Check the Drop Down contains Staff menu" time="1.31">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Entities Menu Options.Staff Functionality" name="Staff Page elements" time="1.71">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Entities Menu Options.Staff Functionality" name="Create Staff Form " time="11.738">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Entities Menu Options.Staff Functionality" name="Check fields in Staff Form" time="11.99">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Entities Menu Options.Staff Functionality" name="Filling the New Staff form" time="17.048">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Entities Menu Options.Staff Functionality" name="To view created staff record" time="18.408">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Entities Menu Options.Staff Functionality" name="To Edit created staff record" time="20.88">
+  </testcase>
+ </testsuite>
+ <testsuite name="Gurukula.Landing page.Account Menu from Nav bar" timestamp="2017-01-18T04:35:05" hostname="localhost" time="11.792" errors="0" tests="5" skipped="0" failures="0">
+  <testcase classname="Gurukula.Landing page.Account Menu from Nav bar" name="Checking the Account has all the options" time="1.538">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Account Menu from Nav bar" name="Checking the Setting Page" time="2.18">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Account Menu from Nav bar" name="Checking the Password Page" time="3.102">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Account Menu from Nav bar" name="Checking the Sessions Page" time="3.683">
+  </testcase>
+  <testcase classname="Gurukula.Landing page.Account Menu from Nav bar" name="Checking the Logout" time="1.285">
+  </testcase>
+ </testsuite>
+</testsuites>
